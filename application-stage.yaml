@@ -1,0 +1,22 @@
+message:  Hello 397!
+
+aws:
+    policy-name: Rzero-v2-Devices-IoT-Policy5556
+    iot-endpoint: arlgzy0w0k4vc-ats.iot.us-east-1.amazonaws.com
+
+timezone:
+    detection-url:  https://nominatim.openstreetmap.org/
+
+rzero:
+    auth-header: 'Basic YWRtaW46cnplcm8kITIwMjA='
+    firmware:
+        chunkSize: 10255
+
+device-events:
+    sqs:
+        fixed-delay: 10003
+    cleanup:
+        cron: 0 0 3 * * *
+
+login-link:
+    http://someserver/stage-link
