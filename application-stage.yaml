@@ -19,4 +19,4 @@ device-events:
         cron: 0 0 3 * * *
 
 login-link:
-    http://someserver/stage-link-updated
+    http://someserver/stage-link-updated2
